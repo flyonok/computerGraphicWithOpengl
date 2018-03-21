@@ -45,14 +45,14 @@ static void circleMidpoint(scrPt circCtr, GLint radius)
 
 static void circlePlotPoints(scrPt circCtr, scrPt circPt)
 {
-	setPixel(circCtr.x + circPt.x, circCtr.y + circPt.y, 128, 0, 0);
-	setPixel(circCtr.x - circPt.x, circCtr.y + circPt.y, 128, 0, 0);
-	setPixel(circCtr.x + circPt.x, circCtr.y - circPt.y, 128, 0, 0);
-	setPixel(circCtr.x - circPt.x, circCtr.y - circPt.y, 128, 0, 0);
-	setPixel(circCtr.x + circPt.y, circCtr.y + circPt.x, 128, 0, 0);
-	setPixel(circCtr.x - circPt.y, circCtr.y + circPt.x, 128, 0, 0);
-	setPixel(circCtr.x + circPt.y, circCtr.y - circPt.x, 128, 0, 0);
-	setPixel(circCtr.x - circPt.y, circCtr.y - circPt.x, 128, 0, 0);
+	setPixel(circCtr.x + circPt.x, circCtr.y + circPt.y, 1.0, 0, 0);
+	setPixel(circCtr.x - circPt.x, circCtr.y + circPt.y, 1.0, 0, 0);
+	setPixel(circCtr.x + circPt.x, circCtr.y - circPt.y, 1.0, 0, 0);
+	setPixel(circCtr.x - circPt.x, circCtr.y - circPt.y, 1.0, 0, 0);
+	setPixel(circCtr.x + circPt.y, circCtr.y + circPt.x, 1.0, 0, 0);
+	setPixel(circCtr.x - circPt.y, circCtr.y + circPt.x, 1.0, 0, 0);
+	setPixel(circCtr.x + circPt.y, circCtr.y - circPt.x, 1.0, 0, 0);
+	setPixel(circCtr.x - circPt.y, circCtr.y - circPt.x, 1.0, 0, 0);
 }
 
 

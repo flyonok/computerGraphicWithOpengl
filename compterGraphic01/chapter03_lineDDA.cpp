@@ -27,7 +27,7 @@ static void lineDDA(int x0, int y0, int xEnd, int yEnd)
 	glVertex2i(round(x), round(y));
 	glEnd();
 	*/
-	setPixel(round(x), round(y), 128, 0, 0);
+	setPixel(round(x), round(y), 1.0, 0, 0);
 
 
 	for (k = 0; k < steps; k++) {
@@ -40,7 +40,7 @@ static void lineDDA(int x0, int y0, int xEnd, int yEnd)
 		glVertex2i(round(x), round(y));
 		glEnd();
 		*/
-		setPixel(round(x), round(y), 128, 0, 0);
+		setPixel(round(x), round(y), 1.0, 0, 0);
 	}
 }
 

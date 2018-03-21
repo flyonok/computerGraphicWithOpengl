@@ -1,4 +1,7 @@
 #include "stdafx.h"
+#include <GLES/glew.h>
+#include <freeGL/glut.h>
+
 #include"chapter03.h"
 inline int round(const float a) { return int(a + 0.5); }
 
@@ -57,13 +60,18 @@ static void ellipseMidpoint(int xCenter, int yCenter, int Rx, int Ry)
 
 static void ellipsePlotPoints(int xCenter, int yCenter, int x, int y)
 {
-	setPixel(xCenter + x, yCenter + y, 0, 0, 128);
-	setPixel(xCenter - x, yCenter + y, 0, 0, 128);
-	setPixel(xCenter + x, yCenter - y, 0, 0, 128);
-	setPixel(xCenter - x, yCenter - y, 0, 0, 128);
+	setPixel(xCenter + x, yCenter + y, 0, 0, 1.0);
+	setPixel(xCenter - x, yCenter + y, 0, 0, 1.0);
+	setPixel(xCenter + x, yCenter - y, 0, 0, 1.0);
+	setPixel(xCenter - x, yCenter - y, 0, 0, 1.0);
 }
 
 void displayEllipseMidpoint()
 {
-
+	int x0 = 100, y0 = 100;
+	int Rx = 30, Ry = 18;
+	glClear(GL_COLOR_BUFFER_BIT);
+	ellipseMidpoint(x0, y0, Rx, Ry);
+	glutSwapBuffers();
+	glutPostRedisplay();
 }

@@ -50,5 +50,8 @@
     <ClCompile Include="chapter03_EllipseMidpoint.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="chapter03_polygon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

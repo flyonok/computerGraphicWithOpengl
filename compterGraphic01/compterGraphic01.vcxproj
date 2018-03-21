@@ -151,6 +151,7 @@
     <ClCompile Include="chapter03_EllipseMidpoint.cpp" />
     <ClCompile Include="chapter03_LineBres.cpp" />
     <ClCompile Include="chapter03_lineDDA.cpp" />
+    <ClCompile Include="chapter03_polygon.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

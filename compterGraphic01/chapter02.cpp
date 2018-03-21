@@ -63,7 +63,15 @@ void main(int argc, char** argv)
 	// glutDisplayFunc(lineSegment);       // Send graphics to display window.
 	// glutDisplayFunc(displayLineDDA);
 	// glutDisplayFunc(displayCircle);
-	glutDisplayFunc(displayLineBres);
+	// glutDisplayFunc(displayLineBres);
+	// glutDisplayFunc(displayEllipseMidpoint);
+	// glutDisplayFunc(drawRect);
+	// glutDisplayFunc(drawPolygon);
+	// glutDisplayFunc(drawTriangles);
+	// glutDisplayFunc(drawTriangleStrip);
+	// glutDisplayFunc(drawTriangleFan);
+	glutDisplayFunc(drawQuads);
+
 	glutMainLoop();                    // Display everything and wait.
 }
 

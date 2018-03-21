@@ -21,7 +21,7 @@ static void lineBres(int x0, int y0, int xEnd, int yEnd)
 		x = x0;
 		y = y0;
 	}
-	setPixel(x, y, 0, 128, 128);
+	setPixel(x, y, 0, 1.0, 1.0);
 
 	while (x < xEnd) {
 		x++;
@@ -31,7 +31,7 @@ static void lineBres(int x0, int y0, int xEnd, int yEnd)
 			y++;
 			p += twoDyMinusDx;
 		}
-		setPixel(x, y, 0, 128, 128);
+		setPixel(x, y, 0, 1.0, 1.0);
 	}
 }
 
