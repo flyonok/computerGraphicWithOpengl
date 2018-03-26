@@ -148,9 +148,13 @@
     <ClCompile Include="chapter02.cpp" />
     <ClCompile Include="chapter03.cpp" />
     <ClCompile Include="chapter03_circleMidpoint.cpp" />
+    <ClCompile Include="chapter03_cube.cpp" />
+    <ClCompile Include="chapter03_DispLstReshape.cpp" />
     <ClCompile Include="chapter03_EllipseMidpoint.cpp" />
     <ClCompile Include="chapter03_LineBres.cpp" />
     <ClCompile Include="chapter03_lineDDA.cpp" />
+    <ClCompile Include="chapter03_lineGraph.cpp" />
+    <ClCompile Include="chapter03_pieChart.cpp" />
     <ClCompile Include="chapter03_polygon.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

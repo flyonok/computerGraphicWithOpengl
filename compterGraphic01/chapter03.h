@@ -12,3 +12,8 @@ void drawTriangles();
 void drawTriangleStrip();
 void drawTriangleFan();
 void drawQuads();
+void drawQuadStrip();
+void cube();
+// reshape function
+void regHexagon();
+void winReshapeFcn(int newWidth, int newHeight);

@@ -17,6 +17,14 @@ void init(void)
 	gluOrtho2D(0.0, 200.0, 0.0, 150.0);
 }
 
+void init3D(void)
+{
+	glClearColor(1.0, 1.0, 1.0, 0.0);  // Set display-window color to white.
+	glMatrixMode(GL_PROJECTION);
+	glLoadIdentity();
+	glOrtho(-2, 2, -2, 2, 5, -5);
+}
+
 void lineSegment(void)
 {
 	glClear(GL_COLOR_BUFFER_BIT);  // Clear display window.
@@ -50,6 +58,7 @@ void lineSegment(void)
 	*/
 }
 
+/*
 void main(int argc, char** argv)
 {
 	glutInit(&argc, argv);                         // Initialize GLUT.
@@ -60,6 +69,7 @@ void main(int argc, char** argv)
 	glutCreateWindow("An Example OpenGL Program"); // Create display window.
 
 	init();                            // Execute initialization procedure.
+	// init3D();
 	// glutDisplayFunc(lineSegment);       // Send graphics to display window.
 	// glutDisplayFunc(displayLineDDA);
 	// glutDisplayFunc(displayCircle);
@@ -70,8 +80,13 @@ void main(int argc, char** argv)
 	// glutDisplayFunc(drawTriangles);
 	// glutDisplayFunc(drawTriangleStrip);
 	// glutDisplayFunc(drawTriangleFan);
-	glutDisplayFunc(drawQuads);
+	// glutDisplayFunc(drawQuads);
+	// glutDisplayFunc(drawQuadStrip);
+	// glutDisplayFunc(cube);
+	glutDisplayFunc(regHexagon);
+	glutReshapeFunc(winReshapeFcn);
 
 	glutMainLoop();                    // Display everything and wait.
 }
+*/
 
