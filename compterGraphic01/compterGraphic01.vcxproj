@@ -149,7 +149,7 @@
     <ClCompile Include="chapter03.cpp" />
     <ClCompile Include="chapter03_circleMidpoint.cpp" />
     <ClCompile Include="chapter03_cube.cpp" />
-    <ClCompile Include="chapter03_DispLstReshape.cpp" />
+    <ClCompile Include="chapter03_DispListReshape.cpp" />
     <ClCompile Include="chapter03_EllipseMidpoint.cpp" />
     <ClCompile Include="chapter03_LineBres.cpp" />
     <ClCompile Include="chapter03_lineDDA.cpp" />

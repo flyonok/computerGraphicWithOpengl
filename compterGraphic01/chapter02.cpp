@@ -9,7 +9,7 @@
 #include <freeGL/glut.h>      // (or others, depending on the system in use)
 #include "chapter03.h"
 
-void init(void)
+static void init(void)
 {
 	glClearColor(1.0, 1.0, 1.0, 0.0);  // Set display-window color to white.
 
@@ -17,7 +17,7 @@ void init(void)
 	gluOrtho2D(0.0, 200.0, 0.0, 150.0);
 }
 
-void init3D(void)
+static void init3D(void)
 {
 	glClearColor(1.0, 1.0, 1.0, 0.0);  // Set display-window color to white.
 	glMatrixMode(GL_PROJECTION);
@@ -25,7 +25,7 @@ void init3D(void)
 	glOrtho(-2, 2, -2, 2, 5, -5);
 }
 
-void lineSegment(void)
+static void lineSegment(void)
 {
 	glClear(GL_COLOR_BUFFER_BIT);  // Clear display window.
 

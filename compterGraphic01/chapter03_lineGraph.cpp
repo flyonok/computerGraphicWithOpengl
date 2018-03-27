@@ -62,6 +62,7 @@ static void winReshapeFcn(GLint newWidth, GLint newHeight)
 	glClear(GL_COLOR_BUFFER_BIT);
 }
 
+/*
 void main(int argc, char** argv)
 {
 	glutInit(&argc, argv);
@@ -77,6 +78,7 @@ void main(int argc, char** argv)
 
 	glutMainLoop();
 }
+*/
 
 static void barChart(void)
 {

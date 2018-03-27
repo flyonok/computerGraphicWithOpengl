@@ -56,13 +56,13 @@
     <ClCompile Include="chapter03_cube.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="chapter03_DispLstReshape.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="chapter03_lineGraph.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="chapter03_pieChart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter03_DispListReshape.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -3,10 +3,6 @@
 #include <freeGL/glut.h>
 #include "chapter03.h"
 
-class scrPt {
-public:
-	GLint x, y;
-};
 static void circlePlotPoints(scrPt circCtr, scrPt circPt);
 
 /*void setPixel(GLint x, GLint y)
@@ -18,7 +14,7 @@ static void circlePlotPoints(scrPt circCtr, scrPt circPt);
 */
 
 
-static void circleMidpoint(scrPt circCtr, GLint radius)
+void circleMidpoint(scrPt circCtr, GLint radius)
 {
 	scrPt circPt;
 
